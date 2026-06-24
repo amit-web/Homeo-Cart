@@ -40,3 +40,4 @@ medmart/
 - Tailwind utility classes only — no inline styles, no separate CSS files unless absolutely necessary.
 - Async/await everywhere — no raw `.then()` chains in new code.
 - Wrap all async controller functions in a try/catch or an `asyncHandler` wrapper — never let unhandled promise rejections crash the server.
+Always refer to and follow the design.md file as the single source of truth for all UI, layout, styling, and component implementation decisions.
